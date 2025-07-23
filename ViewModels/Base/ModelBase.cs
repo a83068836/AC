@@ -1,0 +1,15 @@
+namespace AC.ViewModels.Base
+{
+    public class ModelBase
+    {
+        /// <summary>
+        /// Gets an instance of the service container and retrieves the requested service coponent.
+        /// </summary>
+        /// <typeparam name="TServiceContract"></typeparam>
+        /// <returns></returns>
+        public static TServiceContract GetService<TServiceContract>() where TServiceContract : class
+        {
+            return ServiceLocator.ServiceContainer.Instance.GetService<TServiceContract>();
+        }
+    }
+}

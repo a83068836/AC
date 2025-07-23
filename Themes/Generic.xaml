@@ -1,0 +1,237 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:SvgReader="http://sharpvectors.codeplex.com/svgc/">
+    <BitmapImage x:Key="audio" UriSource="/FilterTreeViewLib;component/resources/Locations/audio.png" />
+    <BitmapImage x:Key="csharp" UriSource="/FilterTreeViewLib;component/resources/Locations/csharp.png" />
+    <BitmapImage x:Key="css" UriSource="/FilterTreeViewLib;component/resources/Locations/css.png" />
+    <BitmapImage x:Key="database" UriSource="/FilterTreeViewLib;component/resources/Locations/database.png" />
+    <BitmapImage x:Key="exe" UriSource="/FilterTreeViewLib;component/resources/Locations/exe.png" />
+    <BitmapImage x:Key="file" UriSource="/FilterTreeViewLib;component/resources/Locations/file.png" />
+    <BitmapImage x:Key="folder-app-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-app-open.png" />
+    <BitmapImage x:Key="folder-app" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-app.png" />
+    <BitmapImage x:Key="folder-project-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-project-open.png" />
+    <BitmapImage x:Key="folder-project" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-project.png" />
+    <BitmapImage x:Key="folder-astro-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-astro-open.png" />
+    <BitmapImage x:Key="folder-astro" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-astro.png" />
+    <BitmapImage x:Key="folder-backup-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-backup-open.png" />
+    <BitmapImage x:Key="folder-backup" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-backup.png" />
+    <BitmapImage x:Key="folder-buildkite-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-buildkite-open.png" />
+    <BitmapImage x:Key="folder-buildkite" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-buildkite.png" />
+    <BitmapImage x:Key="folder-components-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-components-open.png" />
+    <BitmapImage x:Key="folder-components" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-components.png" />
+    <BitmapImage x:Key="folder-config-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-config-open.png" />
+    <BitmapImage x:Key="folder-config" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-config.png" />
+    <BitmapImage x:Key="folder-css-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-css-open.png" />
+    <BitmapImage x:Key="folder-css" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-css.png" />
+    <BitmapImage x:Key="folder-database-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-database-open.png" />
+    <BitmapImage x:Key="folder-database" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-database.png" />
+    <BitmapImage x:Key="folder-docs-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-docs-open.png" />
+    <BitmapImage x:Key="folder-docs" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-docs.png" />
+    <BitmapImage x:Key="folder-font-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-font-open.png" />
+    <BitmapImage x:Key="folder-font" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-font.png" />
+    <BitmapImage x:Key="folder-images-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-images-open.png" />
+    <BitmapImage x:Key="folder-images" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-images.png" />
+    <BitmapImage x:Key="folder-lib-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-lib-open.png" />
+    <BitmapImage x:Key="folder-lib" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-lib.png" />
+    <BitmapImage x:Key="folder-log-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-log-open.png" />
+    <BitmapImage x:Key="folder-log" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-log.png" />
+    <BitmapImage x:Key="folder-node-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-node-open.png" />
+    <BitmapImage x:Key="folder-node" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-node.png" />
+    <BitmapImage x:Key="folder-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-open.png" />
+    <BitmapImage x:Key="folder-public-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-public-open.png" />
+    <BitmapImage x:Key="folder-public" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-public.png" />
+    <BitmapImage x:Key="folder-routes-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-routes-open.png" />
+    <BitmapImage x:Key="folder-routes" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-routes.png" />
+    <BitmapImage x:Key="folder-scripts-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-scripts-open.png" />
+    <BitmapImage x:Key="folder-scripts" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-scripts.png" />
+    <BitmapImage x:Key="folder-src-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-src-open.png" />
+    <BitmapImage x:Key="folder-src" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-src.png" />
+    <BitmapImage x:Key="folder-store-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-store-open.png" />
+    <BitmapImage x:Key="folder-store" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-store.png" />
+    <BitmapImage x:Key="folder-temp-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-temp-open.png" />
+    <BitmapImage x:Key="folder-temp" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-temp.png" />
+    <BitmapImage x:Key="folder-test-open" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-test-open.png" />
+    <BitmapImage x:Key="folder-test" UriSource="/FilterTreeViewLib;component/resources/Locations/folder-test.png" />
+    <BitmapImage x:Key="folder" UriSource="/FilterTreeViewLib;component/resources/Locations/folder.png" />
+    <BitmapImage x:Key="go" UriSource="/FilterTreeViewLib;component/resources/Locations/go.png" />
+    <BitmapImage x:Key="html" UriSource="/FilterTreeViewLib;component/resources/Locations/html.png" />
+    <BitmapImage x:Key="image" UriSource="/FilterTreeViewLib;component/resources/Locations/image.png" />
+    <BitmapImage x:Key="java" UriSource="/FilterTreeViewLib;component/resources/Locations/java.png" />
+    <BitmapImage x:Key="javascript" UriSource="/FilterTreeViewLib;component/resources/Locations/javascript.png" />
+    <BitmapImage x:Key="php" UriSource="/FilterTreeViewLib;component/resources/Locations/php.png" />
+    <BitmapImage x:Key="python" UriSource="/FilterTreeViewLib;component/resources/Locations/python.png" />
+    <BitmapImage x:Key="settings" UriSource="/FilterTreeViewLib;component/resources/Locations/settings.png" />
+    <BitmapImage x:Key="video" UriSource="/FilterTreeViewLib;component/resources/Locations/video.png" />
+    <BitmapImage x:Key="xml" UriSource="/FilterTreeViewLib;component/resources/Locations/xml.png" />
+    <BitmapImage x:Key="zip" UriSource="/FilterTreeViewLib;component/resources/Locations/zip.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+    <Style x:Key="CloseButton" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="ToolTip" Value="Close" />
+        <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" />
+        <Setter Property="Foreground" Value="{DynamicResource SystemButtonsForeground}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <Path
+                            Width="46"
+                            Height="32"
+                            Margin="0,2,0,0"
+                            Data="M 18,11 27,20 M 18,20 27,11"
+                            Stroke="{TemplateBinding Foreground}"
+                            StrokeThickness="1" />
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMouseOverBackground}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsMousePressedForeground}" />
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMousePressedBackground}" />
+                        </Trigger>
+                        <DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsInactiveForeground}" />
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MaximizeButton" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="ToolTip" Value="Maximize" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" />
+        <Setter Property="Foreground" Value="{DynamicResource SystemButtonsForeground}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <Path
+                            x:Name="MaximizePath"
+                            Width="46"
+                            Height="32"
+                            Margin="0,2,0,0"
+                            Data="M 18.5,10.5 H 27.5 V 19.5 H 18.5 Z"
+                            Stroke="{TemplateBinding Foreground}"
+                            StrokeThickness="1" />
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMouseOverBackground}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsMousePressedForeground}" />
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMousePressedBackground}" />
+                        </Trigger>
+                        <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="Maximized">
+                            <Setter Property="Visibility" Value="Collapsed" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsInactiveForeground}" />
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="RestoreDownButton" TargetType="{x:Type Button}">
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="ToolTip" Value="Restore Down" />
+        <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" />
+        <Setter Property="Foreground" Value="{DynamicResource SystemButtonsForeground}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <Path
+                            x:Name="RestoreDownPath"
+                            Width="46"
+                            Height="32"
+                            Margin="0,2,0,0"
+                            Data="M 18.5,12.5 H 25.5 V 19.5 H 18.5 Z M 20.5,12.5 V 10.5 H 27.5 V 17.5 H 25.5"
+                            Stroke="{TemplateBinding Foreground}"
+                            StrokeThickness="1" />
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMouseOverBackground}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsMousePressedForeground}" />
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMousePressedBackground}" />
+                        </Trigger>
+                        <DataTrigger Binding="{Binding WindowState, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="Maximized">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsInactiveForeground}" />
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MinimizeButton" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="RenderOptions.EdgeMode" Value="Aliased" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="ToolTip" Value="Minimize" />
+        <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" />
+        <Setter Property="Foreground" Value="{DynamicResource SystemButtonsForeground}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <Path
+                            Width="46"
+                            Height="32"
+                            Margin="0,2,0,0"
+                            Data="M 18,15 H 28"
+                            Stroke="{TemplateBinding Foreground}"
+                            StrokeThickness="1" />
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMouseOverBackground}" />
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsMousePressedForeground}" />
+                            <Setter Property="Background" Value="{DynamicResource SystemButtonsMousePressedBackground}" />
+                        </Trigger>
+                        <DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource SystemButtonsInactiveForeground}" />
+                        </DataTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+  
+</ResourceDictionary>
